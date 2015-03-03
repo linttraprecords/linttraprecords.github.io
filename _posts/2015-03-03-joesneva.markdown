@@ -1,0 +1,34 @@
+---
+title: Joe Sneva
+subtitle: Singer/Songwriter
+layout: default
+modal-id: joesneva
+date: 2015-03-03
+img: joesneva.jpg
+thumbnail: joesneva-thumbnail.jpg
+alt: Joe Sneva
+project-date: March 2015
+client: Joe Sneva
+category: Production
+description: "\"Wistful, crisp, sunsoaked tunes that recall a time spent a beach during the summer.\" -Cameron Deuel (Whatsup Magazine)"
+---
+
+<h3>Listen</h3>
+<iframe width="100%" height="350" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/45568761&amp;color=ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<h3>Buy</h3>
+<a href="https://itunes.apple.com/us/album/salt-water-hymns/id911616736" target="_blank" class="btn-link">iTunes</a>
+<a href="http://www.cdbaby.com/Artist/JoeSneva" target="_blank" class="btn-link">CDBaby</a>
+
+<h3>Contact</h3>
+<a href="https://www.facebook.com/joesnevamusic" target="_blank" class="symbol btn-link">facebook</a>
+<a href="http://eepurl.com/0fesv" target="_blank" class="symbol btn-link">email</a>
+
+<h3>Bio</h3>
+<p>Joe Sneva is a singer/songwriter from the Pacific Northwest. In 2004, he released his first album, acclaimed acoustic gem, "Sweet Talkin'." He then spent the next 4 years playing with LA rock band, Further.</p>
+
+<p>After the band's split in 2008, Sneva then released his second solo album, "The Monterey Sessions", a mixture of surf and reggae. In 2011 he released two EPs, which couldn't have been more diff...erent.</p>
+
+<p>"Skirts &amp; Satellites" was an upbeat electro-pop sound, giving homage to bands like The Cure and MGMT. The second album, "An Echo", brought Sneva back to his softer side, writing acoustic love songs accompanied by piano, shakers, bells, and other organic instrumentation.</p>
+
+<p>Sneva is currently fronting his indie/surf/pop band, The Sweet Dominiques, often performing material from his solo stuff in their set lists.</p>

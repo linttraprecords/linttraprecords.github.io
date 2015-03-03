@@ -1,0 +1,29 @@
+<!-- Portfolio Grid Section -->
+    <section id="artists" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Artists</h2>
+                    <h3 class="section-subheading text-muted">Want to be a Lint Trap Record artist? Let us know.</h3>
+                </div>
+            </div>
+            <div class="row">
+            {% for post in site.posts %}
+                <div class="col-md-4 artist-item">
+                    <a href="#{{ post.modal-id }}" class="artist-link" data-toggle="modal">
+                        <div class="artist-hover">
+                            <div class="artist-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/artist/{{ post.thumbnail }}" class="img-responsive" alt="">
+                    </a>
+                    <div class="artist-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>
