@@ -37,7 +37,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Mukilteo, Wa 98275
+  - line: Mukilteo Wa 98275
 
 # Build settings
 markdown: kramdown
