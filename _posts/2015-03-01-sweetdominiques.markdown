@@ -13,19 +13,16 @@ category: Production
 description: A little country, a little 50's pop, a little reggae - perfect for drinking cold beers in warm weather.
 ---
 
-<h3>Listen</h3>
- <iframe style="border: 0; width: 100%;" src="http://bandcamp.com/EmbeddedPlayer/album=1128130451/size=large/bgcol=333333/linkcol=4ec5ec/artwork=small/transparent=true/" seamless="">&lt;a href="http://thesweetdominiques.bandcamp.com/album/the-sweet-dominiques-2"&gt;The Sweet Dominiques by The Sweet Dominiques&lt;/a&gt;</iframe>
-
-<h3>Social</h3>
-<a href="https://www.facebook.com/TheSweetDominiques" target="_blank" class="symbol btn-link">facebook</a>
-<a href="https://www.youtube.com/user/GrooveMaster5K" target="_blank" class="symbol btn-link">youtube</a>
-<a href="https://soundcloud.com/the_sweet_dominiques" target="_blank" class="symbol btn-link">soundcloud</a>
-
 <h3>Buy</h3>
 <a href="http://thesweetdominiques.bandcamp.com/" target="_blank" class="btn-link">Bandcamp</a>
 <a href="http://www.cdbaby.com/cd/SweetDominiques" target="_blank" class="btn-link">CDBaby</a>
 <a href="http://www.cdbaby.com/cd/sweetdominiques1" target="_blank" class="btn-link">Record Store Rumble</a>
 <a href="https://itunes.apple.com/us/artist/the-sweet-dominiques/id383657132" class="btn-link">iTunes</a>
+
+<h3>Social</h3>
+<a href="https://www.facebook.com/TheSweetDominiques" target="_blank" class="symbol btn-link">facebook</a>
+<a href="https://www.youtube.com/user/GrooveMaster5K" target="_blank" class="symbol btn-link">youtube</a>
+<a href="https://soundcloud.com/the_sweet_dominiques" target="_blank" class="symbol btn-link">soundcloud</a>
 
 <h3>Shows</h3>
 <a href="http://www.songkick.com/artists/994938-sweet-dominiques" target="_blank">Songkick</a>

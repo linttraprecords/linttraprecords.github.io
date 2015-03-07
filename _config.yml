@@ -7,20 +7,24 @@ description: "MUSIC"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
+
   primary: 7CD51D
   secondary: ffaaff  
   secondary-dark: 333
 
 # Team names, titles and social links
 people:
+
 - name: Kevin Lint
   pic: kevinlint
+  track: 160910408
   position: Singer/Songwriter and Producer
   social:
     - title: twitter
       url: http://twitter.com/kvnlnt
     - title: facebook
       url: http://facebook.com/kevinlintmusic
+
 - name: Jaymie Charnette
   pic: jaymie
   position: Manager/Glue
@@ -28,8 +32,60 @@ people:
     - title: facebook
       url: http://facebook.com/jjaymie
 
+# Album names, artists, etc
+albums:
+
+- name: Salt Water Hymns
+  artist: Joe Sneva
+  year: 2014
+  track: 160910408
+  tags: "Acoustic, Pop"
+
+- name: The Sand Reckoner
+  artist: Kevin Lint
+  year: 2013
+  track: 160910408
+  tags: "Americana, Rock"
+
+- name: An Echo
+  artist: Joe Sneva
+  year: 2012
+  track: 160910408
+  tags: "Acoustic, Pop"
+
+- name: Story Problems
+  artist: Kevin Lint
+  year: 2008
+  track: 160910408
+  tags: "Acoustic, Pop"
+
+- name: L.A. Is On Fire
+  artist: The Sweet Dominiques
+  year: 2012
+  track: 160910408
+  tags: "Acoustic, Pop"
+
+- name: Record Store Rumble
+  artist: The Sweet Dominiques
+  year: 2011
+  track: 160910408
+  tags: "Acoustic, Pop"
+
+- name: The Sweet Dominiques
+  artist: The Sweet Dominiques
+  year: 2010
+  track: 160910408
+  tags: "Acoustic, Pop"
+
+- name: Dance Floor
+  artist: Neon Sharks
+  year: 2010
+  track: 160910408
+  tags: "Acoustic, Pop"
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+
   - title: twitter
     url: http://twitter.com/kvnlnt
   - title: facebook
@@ -37,6 +93,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
+
   - line: Mukilteo Wa 98275
 
 # Build settings

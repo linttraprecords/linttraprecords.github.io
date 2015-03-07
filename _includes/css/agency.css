@@ -52,6 +52,15 @@ a.btn-link {
     margin:0 10px;
 }
 
+a.btn-play {
+    font-size: 32px;
+    color: #CCCCCC;
+}
+
+a.btn-play:hover {
+    color: #{{ site.color.primary }};
+}
+
 h1,
 h2,
 h3,
@@ -658,6 +667,34 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
+}
+
+.album {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.album  img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.album  h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.album  p {
+    margin: 0;
+
+}
+
+.album .tags {
+    font-size: 10px;
+    color: #CCCCCC;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 aside.clients img {

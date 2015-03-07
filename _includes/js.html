@@ -15,3 +15,35 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+    <script>
+
+        function loadTrack(track_id, album){
+            // https://developers.soundcloud.com/docs/api/reference#users
+            var url = 'https://api.soundcloud.com/tracks/'+track_id+'.json?client_id=34417f683cc3691f1c2db4f3b1311cc8';
+            $.getJSON(url, function(track) {
+                // console.log(track);
+                var html = '<img src="'+track.artwork_url.replace('-large','-t300x300')+'" class="img-responsive" alt="">';
+                album.find('.artwork').html(html);
+                album.find('.btn-play').on('click', function(){
+                    $(this).removeClass('fa-play').addClass('fa-pause');
+                    console.log('play ', track.stream_url);
+                });
+            });
+
+        };
+
+        $(document).ready(function(){
+
+            var tracks = $('.track');
+
+            var config = function(track){
+                var track_id = $(this).data('track-id');
+                loadTrack(track_id, $(this));
+            };
+
+            tracks.each(config);
+        });
+        
+
+    </script>

@@ -1,0 +1,27 @@
+<!-- Team Section -->
+<section id="music">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">The Music</h2>
+                <h3 class="section-subheading text-muted">Have a listen-see</h3>
+            </div>
+        </div>
+        <div class="row">
+            {% for album in site.albums %}
+            <div class="col-sm-3">
+                <div class="album">
+                    <div class="track" data-track-id="{{album.track}}">
+                        <div class="artwork"></div>
+                        <a class="fa fa-play btn btn-play"></a>
+                    </div>
+
+                    <h4>{{ album.name }}</h4>
+                    <p class="text-muted">{{ album.artist }}</p>
+                    <p class="tags">{{ album.tags }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
