@@ -55,7 +55,7 @@ a.btn-link {
 a.btn-play,
 a.btn-load,
 a.btn-stop {
-    font-size: 20px;
+    font-size: 40px;
     color: #000000;
     padding: 5px 15px;
 }
@@ -190,6 +190,17 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+.logo {
+    width:60px;
+    height:60px;
+    display: inline-block;
+    margin-left:10px;
+}
+
+.navbar-header {
+    vertical-align: middle;
+}
+
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -198,6 +209,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.primary }};
+    padding:0;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -696,7 +708,9 @@ section h3.section-subheading {
 }
 
 .album .track {
-
+    max-width: 300px;
+    margin:0 auto;
+    position: relative;
 }
 
 .album .track .btn-play,
@@ -704,6 +718,9 @@ section h3.section-subheading {
 .album .track .btn-stop {
     display: none;
     margin:10px auto;
+    position: absolute;
+    top:15px;
+    left:15px;
 }
 
 .album .tags {

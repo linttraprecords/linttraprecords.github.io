@@ -39,48 +39,48 @@ albums:
   artist: Joe Sneva
   year: 2014
   track: 160910408
-  tags: "Acoustic, Pop"
+  tags: "Folk, Pop"
 
 - name: The Sand Reckoner
   artist: Kevin Lint
   year: 2013
-  track: 160910408
-  tags: "Americana, Rock"
+  track: 194840330
+  tags: "Americana, Singer-Songwriter"
 
 - name: An Echo
   artist: Joe Sneva
   year: 2012
-  track: 160910408
-  tags: "Acoustic, Pop"
+  track: 194843489
+  tags: "Acoustic, Folk, Pop"
 
 - name: Story Problems
   artist: Kevin Lint
   year: 2008
-  track: 160910408
-  tags: "Acoustic, Pop"
+  track: 194847350
+  tags: "Americana Rock, Singer-Songwriter"
 
-- name: L.A. Is On Fire
-  artist: The Sweet Dominiques
-  year: 2012
-  track: 160910408
-  tags: "Acoustic, Pop"
+# - name: L.A. Is On Fire
+#   artist: The Sweet Dominiques
+#   year: 2012
+#   track: "none"
+#   tags: "Acoustic, Pop"
 
-- name: Record Store Rumble
-  artist: The Sweet Dominiques
-  year: 2011
-  track: 160910408
-  tags: "Acoustic, Pop"
+# - name: Record Store Rumble
+#   artist: The Sweet Dominiques
+#   year: 2011
+#   track: "none"
+#   tags: "Acoustic, Pop"
 
-- name: The Sweet Dominiques
-  artist: The Sweet Dominiques
-  year: 2010
-  track: 160910408
-  tags: "Acoustic, Pop"
+# - name: The Sweet Dominiques
+#   artist: The Sweet Dominiques
+#   year: 2010
+#   track: "none"
+#   tags: "Acoustic, Pop"
 
-- name: Dance Floor
+- name: "Skirts & Satellites"
   artist: Neon Sharks
   year: 2010
-  track: 160910408
+  track: 194861852
   tags: "Acoustic, Pop"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
