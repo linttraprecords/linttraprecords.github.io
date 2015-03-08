@@ -1,0 +1,70 @@
+<script src="//connect.soundcloud.com/sdk.js"></script>
+
+ <script>
+
+    SC.initialize({ client_id: "34417f683cc3691f1c2db4f3b1311cc8" });
+    var curr_track  = null;
+
+    $(document).ready(function(){
+
+        $('.track').each(function(){
+
+            var el          = $(this);
+            var artwork     = el.find('.artwork');
+            var play        = el.find('.btn-play');
+            var plays       = $('.btn-play');
+            var load        = el.find('.btn-load');
+            var loads       = $('.btn-load');
+            var stop        = el.find('.btn-stop');
+            var stops       = $('.btn-stop');
+            var track_id    = el.data('track-id');
+
+            play.show();
+
+            function reset(){
+                if(curr_track){  curr_track.unload(); }
+                loads.hide();
+                stops.hide();
+                plays.show();
+            }
+            
+            SC.get("/tracks/" + track_id, {limit: 1}, function(track_data){
+
+                // load artwork
+                var html = '<img src="'+track_data.artwork_url.replace('-large','-t300x300')+'" class="img-responsive" alt=""/>';
+                artwork.html(html);
+
+                // when play is clicked
+                play.on('click', function(){
+
+                    reset();
+                    play.hide();
+                    load.show();
+
+
+                    SC.stream("/tracks/"+track_id, function(sound){
+                        reset();
+                        curr_track = sound;
+                        curr_track.play();
+                        load.hide();
+                        play.hide();
+                        stop.show();
+                    });
+                    
+                });
+
+                stop.on('click', function(){
+                    stop.hide();
+                    play.show();
+                    curr_track.unload();
+                });
+
+
+
+            });
+
+        });
+
+    });    
+
+</script>

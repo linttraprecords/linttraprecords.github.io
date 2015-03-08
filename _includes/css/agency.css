@@ -52,12 +52,17 @@ a.btn-link {
     margin:0 10px;
 }
 
-a.btn-play {
-    font-size: 32px;
-    color: #CCCCCC;
+a.btn-play,
+a.btn-load,
+a.btn-stop {
+    font-size: 20px;
+    color: #000000;
+    padding: 5px 15px;
 }
 
-a.btn-play:hover {
+a.btn-play:hover,
+a.btn-load:hover,
+a.btn-stop:hover {
     color: #{{ site.color.primary }};
 }
 
@@ -680,7 +685,7 @@ section h3.section-subheading {
 }
 
 .album  h4 {
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 0;
     text-transform: none;
 }
@@ -688,6 +693,17 @@ section h3.section-subheading {
 .album  p {
     margin: 0;
 
+}
+
+.album .track {
+
+}
+
+.album .track .btn-play,
+.album .track .btn-load,
+.album .track .btn-stop {
+    display: none;
+    margin:10px auto;
 }
 
 .album .tags {

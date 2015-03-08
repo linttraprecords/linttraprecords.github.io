@@ -1,32 +1,19 @@
 <html>
 
-<head></head>
+<head>
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+</head>
 <body>
-<button>stop</button>
-<iframe id="sc-widget" width="0" height="0" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?client_id=34417f683cc3691f1c2db4f3b1311cc8&url="></iframe>
-<script src="js/jquery-1.11.0.js" type="text/javascript"></script>
-<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
-<script type="text/javascript">
 
-    var container = $('#sc-widget');
-    var stop      = $('button');
-    var player    = SC.Widget(container.get(0));
-    var track     = "https://api.soundcloud.com/tracks/13692671";
 
-    var ready = function(){
-        player.load(track, {
-            auto_play:true,
-        });
-    };
-
-    player.bind(SC.Widget.Events.READY, ready());
-
-     stop.on('click', function(){
-        player.pause();
+<script>
+    SC.initialize({ client_id: "34417f683cc3691f1c2db4f3b1311cc8" });
+    SC.get("/tracks/160910408", {limit: 1}, function(track){
+      console.log(track);
     });
-
-
-
+    SC.stream("/tracks/160910408", function(sound){
+      sound.play();
+    });
 </script>
 
 </body>
