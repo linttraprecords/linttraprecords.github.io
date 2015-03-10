@@ -13,6 +13,11 @@ category: Production
 description: A little country, a little 50's pop, a little reggae - perfect for drinking cold beers in warm weather.
 ---
 
+<h3>Members</h3>
+Joe Sneva - Vocals/Guitar/Harmonica<br/>
+Jarrod Fenner - Drums/Vocals<br/>
+Matt Waldman - Bass/Vocals (all good cats).
+
 <h3>Buy</h3>
 <a href="http://thesweetdominiques.bandcamp.com/" target="_blank" class="btn-link">Bandcamp</a>
 <a href="http://www.cdbaby.com/cd/SweetDominiques" target="_blank" class="btn-link">CDBaby</a>

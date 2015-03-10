@@ -65,17 +65,17 @@ albums:
 #   track: "none"
 #   tags: "Acoustic, Pop"
 
-# - name: Record Store Rumble
-#   artist: The Sweet Dominiques
-#   year: 2011
-#   track: "none"
-#   tags: "Acoustic, Pop"
+- name: Record Store Rumble
+  artist: The Sweet Dominiques
+  year: 2011
+  track: 12111673
+  tags: "Acoustic, Pop"
 
-# - name: The Sweet Dominiques
-#   artist: The Sweet Dominiques
-#   year: 2010
-#   track: "none"
-#   tags: "Acoustic, Pop"
+- name: The Sweet Dominiques
+  artist: The Sweet Dominiques
+  year: 2010
+  track: 12133018
+  tags: "Acoustic, Pop"
 
 - name: "Skirts & Satellites"
   artist: Neon Sharks
