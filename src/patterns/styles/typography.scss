@@ -1,0 +1,11 @@
+body {
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+}
+
+h1 {
+    @include rem(margin, 1, 0);
+    text-transform: uppercase;
+    color:$black;
+    @include rem(font-size, 3);
+    @include rem(letter-spacing, 0);
+}

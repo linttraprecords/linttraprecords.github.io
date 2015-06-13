@@ -1,0 +1,7 @@
+<div class="menu">
+<ul>
+    {% for link in links %}
+	<li><a href="{{@part link.url}}">{{@part link.txt}}</a></li>
+    {% endfor %}
+</ul>
+</div>
