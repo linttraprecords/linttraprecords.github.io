@@ -1,2 +1,2 @@
-var test={};
+var test={};!function(){var e=function(){var e=document.querySelector(".menu"),a=!0===e.classList.contains("open");a?e.className=e.className.replace(" open",""):e.className+=" open"},a=document.querySelector(".hamburger");a&&a.addEventListener("click",e)}();
 //# sourceMappingURL=scripts.js.map

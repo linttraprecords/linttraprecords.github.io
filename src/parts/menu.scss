@@ -1,11 +1,15 @@
 .menu {
+
     ul {
         list-style: none;
         margin:0;
         padding:0;
-        display: table;
-        table-layout: fixed;
+        display: none;
         width:100%;
+        @include mq(tablet){
+            display: table;
+            table-layout: fixed;
+        }
         li {
             display: block;
             @include mq(tablet){
@@ -13,7 +17,7 @@
             }
             a {
                 @include rem(line-height, 3);
-                @include rem(font-size, 0.75);
+                @include rem(font-size, 1);
                 background-color: $black;
                 text-decoration: none;
                 display: block;
@@ -31,6 +35,24 @@
             border-top: 1px solid $grey;
             @include mq(tablet){
                 border-left: 1px solid $grey;
+            }
+        }
+    }
+    &.open {
+        background-color: $black;
+        position: fixed;
+        height:100%;
+        width:100%;
+        top:0;
+        left:0;
+        @include mq(tablet){
+            position: static;
+            height: inherit;
+        }
+        ul {
+            display: block;
+            @include mq(tablet){
+                display: table;
             }
         }
     }

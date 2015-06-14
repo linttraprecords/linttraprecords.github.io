@@ -1,0 +1,15 @@
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+    @include mq(tablet){
+        display: none;
+    }
+    width: 50px;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    &:hover {
+        background-color: $white;
+        color: $black;
+    }
+}

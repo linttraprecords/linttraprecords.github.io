@@ -1,5 +1,6 @@
 <div class="menu">
-<ul>
+{% include "./src/pieces/hamburger.html" %}
+<ul id="menuList">
     {% for link in links %}
 	<li><a href="{{@part link.url}}">{{@part link.txt}}</a></li>
     {% endfor %}

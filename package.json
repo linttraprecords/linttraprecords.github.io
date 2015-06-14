@@ -42,7 +42,7 @@
     },
     "pages": [
       "index",
-      "news",
+      "home",
       "about",
       "joesneva/index",
       "kevinlint/index",
@@ -51,10 +51,12 @@
     "parts": [
       "menu",
       "head",
+      "news",
       "footer-scripts"
     ],
     "pieces": [
-      "logo"
+      "logo",
+      "hamburger"
     ]
   }
 }
