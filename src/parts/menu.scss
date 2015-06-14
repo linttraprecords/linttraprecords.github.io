@@ -17,7 +17,8 @@
             }
             a {
                 @include rem(line-height, 3);
-                @include rem(font-size, 1);
+                @include rem(font-size, 0.8);
+                @include rem(letter-spacing, 0.2);
                 background-color: $black;
                 text-decoration: none;
                 display: block;

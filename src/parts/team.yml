@@ -1,0 +1,27 @@
+---
+name: Team
+team:
+    - 
+        name: Kevin Lint
+        title: Singer/Songwriter and Producer
+        social:
+            -
+                name: email
+                url: kevin@linttraprecords.com
+            - 
+                name: twitter
+                url: http://twitter.com/linttraprecords
+            -
+                name: facebook
+                url: http://facebook.com/linttraprecords
+    - 
+        name: Jaymie Lint
+        title: Manager/Glue
+        social:
+            -
+                name: email
+                url: jaymie@linttraprecords
+            -
+                name: facebook
+                url: http://facebook.com/linttraprecords
+---

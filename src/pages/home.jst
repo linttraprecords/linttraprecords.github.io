@@ -9,9 +9,14 @@
             <div class="row">
                 <div class="col">
                     <div class="content">
-                    <h1>{{@page name }}</h1>
-                    {% include "./src/parts/news.html" %}
-                    {% autoescape false %}{{@page content }}{% endautoescape %}
+                        <h1>{{@page name }}</h1>
+                        {% autoescape false %}{{@page content }}{% endautoescape %}
+                        {% include "./src/parts/albums.html" %}
+                        <div class="row">
+                            <div class="col">{% include "./src/parts/news.html" %}</div>
+                            <div class="col">{% include "./src/parts/services.html" %}</div>
+                            <div class="col">{% include "./src/parts/team.html" %}</div>
+                        </div>
                     </div>
                 </div>
             </div>

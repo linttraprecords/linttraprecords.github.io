@@ -1,0 +1,8 @@
+<div class="services">
+    <h2>{{@part name}}</h2>
+    <p>We provide a number of professional services. Let us know if you're interested in our help. </p>
+    {% for service in services %}
+    <h3>{{@part service.txt}}</h3>
+    <p>{{@part service.desc}}</p>
+    {% endfor %}
+</div>

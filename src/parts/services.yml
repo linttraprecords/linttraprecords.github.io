@@ -1,0 +1,13 @@
+---
+name: Services
+services:
+    - 
+        txt: Production
+        desc: Recording, mixing, mastering and basic production services are available via the mobile Lint Trap Studio and Lint Trap Record's artists.
+    -
+        txt: Songwriting
+        desc: We love to write and collectively we've written hundreds of songs. Whether you need a new song or are just looking for ideas, we can help.
+    -
+        txt: Marketing
+        desc: Our artists can be heard both on terrestrial radio as well as online services such as Pandora. We do a little bit of everything.
+---

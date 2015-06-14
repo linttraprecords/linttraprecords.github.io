@@ -1,7 +1,8 @@
 <div class="news">
+    <h2>{{@part name}}</h2>
     {% for update in updates %}
     <h3>{{@part update.txt}}</h3>
     <p>{{@part update.desc}}</p>
-    <a class="button" href="{{@part update.url}}">more</a>
+    <a class="button" href="{{@part update.url}}" target="blank">more</a>
     {% endfor %}
 </div>

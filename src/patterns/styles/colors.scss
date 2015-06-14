@@ -1,3 +1,9 @@
 $white: #f3f3f3;
 $black: #333333;
 $grey: #666666;
+$medium-grey: #696969;
+$light-grey: #888888;
+$random-red: random(256)-1;
+$random-green: random(256)-1;
+$random-blue: random(256)-1;
+$random-color: rgb($random-red, $random-green, $random-blue);

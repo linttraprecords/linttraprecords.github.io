@@ -2,8 +2,15 @@
 name: News
 updates:
     -
-        txt: Saltwater Hymns now on Pandora
+        txt: Lint Trap Studio is Moving!
+        desc: After 8 years in the Seattle area, Lint Trap Studio is moving 100 miles north to rural Whatcom County.
+        url: https://www.google.com/maps/place/Whatcom+County,+WA/@48.8147217,-121.8726742,9z/data=!3m1!4b1!4m2!3m1!1s0x5485170bb49ea28b:0x3f1f5b2d6cd7b1ab
+    -
+        txt: Saltwater Hymns Now On Pandora
         desc: Joe Sneva's new album Saltwater Hymns is now on Pandora. Be sure to head over to Pandora and create a station with Joe Sneva
         url: http://pandora.com
+    -
+        txt: Saltwater Hymns Available Now
+        desc: Joe Sneva's new album Saltwater Hymns is now available for purchase. Go and buy it now!
+        url: https://itunes.apple.com/us/album/salt-water-hymns/id911616736
 ---
-about us stuff with <strong>html</strong>

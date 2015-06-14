@@ -1,0 +1,39 @@
+---
+name: Albums
+albums:
+    -
+        name: Saltwater Hymns
+        artist: Joe Sneva
+        genre: Folk, Pop
+        track: 160910408
+    -
+        name: The Sand Reckoner
+        artist: Kevin Lint
+        genre: Americana, Folk
+        track: 194840330
+    -
+        name: An Echo
+        artist: Joe Sneva
+        genre: Americana, Folk
+        track: 194843489
+    -
+        name: Story Problems
+        artist: Kevin Lint
+        genre: Americana, Folk
+        track: 194847350
+    -
+        name: Record Store Rumble
+        artist: The Sweet Dominiques
+        genre: Acoustic, Pop
+        track: 12111673
+    -
+        name: The Sweet Dominiques
+        artist: The Sweet Dominiques
+        genre: Acoustic, Pop
+        track: 12133018
+    -
+        name: Skirts & Satellites
+        artist: Neon Sharks
+        genre: Acoustic, Pop
+        track: 194861852
+---

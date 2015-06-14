@@ -1,0 +1,11 @@
+<div class="team">
+    <h2>{{@part name}}</h2>
+    <p>Lint Trap Records is a simple Mom and Pop operation. Need to book an artist or a question, comment or concern - let us know. </p>
+    {% for member in team %}
+    <h3>{{@part member.name}}</h3>
+    <p>{{@part member.title}}. 
+    {% for contact in member.social %}
+        <a href="{{@part contact.url}}" target="blank">{{@part contact.name}}</a>&nbsp; 
+    {% endfor %}</p>
+    {% endfor %}
+</div>

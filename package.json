@@ -36,7 +36,7 @@
       "name": "kevinlint.com",
       "company": "Lint Trap Records",
       "scripts": [
-        "main"
+        "main", "player"
       ],
       "styles": ["main"]
     },
@@ -52,6 +52,9 @@
       "menu",
       "head",
       "news",
+      "services",
+      "team",
+      "albums",
       "footer-scripts"
     ],
     "pieces": [

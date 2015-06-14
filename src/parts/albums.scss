@@ -1,0 +1,38 @@
+.albums-wrapper {
+     @include rem(margin, 3, 0);
+}
+
+.albums {
+    .album {
+        @include rem(line-height, 2);
+        @include rem(margin-bottom, 2);
+        @include mq(tablet){
+            float: left;
+            width: 33.333333%;
+        }
+        .player {
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background-size: contain;
+            @include rem(margin, 1, 0);
+            @include rem(font-size, 3);
+            text-align: center;
+            line-height: 150px;
+            color:$black;
+            &:hover {
+                color: $white;
+            }
+        }
+        .name {
+            @include rem(font-size, 1.5);
+        }
+        .artist {
+            text-transform: uppercase;
+        }
+        .genre {
+            color:$grey;
+            @include rem(line-height, 1);
+        }
+    }
+}
