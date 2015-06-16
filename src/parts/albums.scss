@@ -20,8 +20,24 @@
             text-align: center;
             line-height: 150px;
             color:$black;
-            &:hover {
+            &:before {
+                content:"\25BA";
+                background-color:$grey;
+                opacity: 0.5;
+                display: block;
+                color:$white;
+            }
+            &.active {
+                &:before {
+                    content: "\2587";
+                    opacity: 1;
+                    background-color: transparent;
+                }
+            }
+            &:hover:before {
                 color: $white;
+                opacity: 1;
+                background-color:transparent;
             }
         }
         .name {

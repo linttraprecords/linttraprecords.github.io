@@ -84,8 +84,9 @@ var buildJs = function(){
             return fs.existsSync(script);
         });
 
-    var js = uglifyJs.minify(scripts, { outSourceMap: "scripts.js.map" });
+    var js = uglifyJs.minify(scripts, { outSourceMap: "scripts.js.map", sourceMapIncludeSources:true, mangle:false });
     fs.writeFileSync('./build/scripts.js', js.code);
+    fs.writeFileSync('./build/scripts.js.map', js.map);
 };
 
 var buildCss = function(){
