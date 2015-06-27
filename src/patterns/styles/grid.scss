@@ -1,7 +1,0 @@
-@include mq(mobile-landscape) {
-    .row { width: 100%; display: table; table-layout: fixed; }
-    .col { display: table-cell;}
-    .col-33 {
-        width: 33%;
-    }
-}

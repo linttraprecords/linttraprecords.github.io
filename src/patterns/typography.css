@@ -1,0 +1,55 @@
+body {
+    font-size: 1.4rem;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: var(--black);
+    color:var(--white);
+}
+
+h1 {
+    margin:2rem 0;
+    font-family: "Abril Fatface";
+    font-size: 3rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    letter-spacing:0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--medium-grey);
+    border-bottom:1px dashed;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.6rem;
+    color: var(--light-grey);
+}
+
+a {
+    color: var(--grey);
+    cursor: pointer;
+}
+
+a:hover {
+    color:var(--white);
+}
+
+
+@media (--tablet-viewport){
+    h1 {
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+    h2 {
+        font-size:3rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+}

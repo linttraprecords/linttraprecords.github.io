@@ -1,0 +1,19 @@
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+    width: 50px;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.hamburger:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+@media (--tablet-viewport) {
+    .hamburger {
+        display: none;
+    }
+}

@@ -1,0 +1,64 @@
+.albums-wrapper {
+     margin: 3rem 0;
+}
+
+.albums .album {
+    display: inline-block;
+    margin:1.5rem;
+}
+
+.albums .album .player {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    margin: 10px 0;
+    margin: 1rem 0;
+    font-size: 30px;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 150px;
+    color: var(--grey);
+}
+
+.albums .album .player:before {
+    content: "\25BA";
+    background-color: var(--grey);
+    opacity: .5;
+    display: block;
+    color: var(--light-grey);
+}
+
+.albums .album .player.active:before {
+    content: "\2587";
+    opacity: 1;
+    background-color: transparent;
+}
+
+.albums .album .player:hover:before {
+    color: #f3f3f3;
+    opacity: 1;
+    background-color: transparent;
+}
+
+.albums .album .name {
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+
+.albums .album .artist {
+    text-transform: uppercase;
+}
+
+.albums .album .genre {
+    color: #666;
+    line-height: 10px;
+    line-height: 1rem;
+}
+
+@medium (--tablet-viewport) {
+    .albums .album {
+        float: left;
+        width: 33.333333%;
+    }
+}

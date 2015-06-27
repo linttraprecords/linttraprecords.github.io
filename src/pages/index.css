@@ -1,0 +1,16 @@
+.splash {
+    background-color: var(--black);
+    width:100%;
+    height: 100%;
+    display: table;
+}
+
+.splash h1 {
+    color: var(--white);
+}
+
+.splash .col {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
