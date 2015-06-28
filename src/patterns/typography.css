@@ -1,6 +1,7 @@
+/*styling*/
 body {
     font-size: 1.4rem;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Arial", "Lucida Grande", sans-serif;
     background-color: var(--black);
     color:var(--white);
 }
@@ -17,8 +18,8 @@ h1 {
 h2 {
     font-size: 2rem;
     color: var(--medium-grey);
-    border-bottom:1px dashed;
     padding-bottom: 0.5rem;
+    border-bottom:1px dotted var(--grey);
     text-transform: uppercase;
 }
 
@@ -38,6 +39,35 @@ a {
 
 a:hover {
     color:var(--white);
+}
+
+blockquote {
+  background: var(--grey);
+  border-left: 1rem solid var(--light-grey);
+  margin: 0;
+  padding: 2rem;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote span {
+    color: var(--black);
+}
+blockquote:before {
+  color: var(--light-grey);
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/*mutators*/
+
+/*adjustments*/
+.text-right {
+    text-align: right;
 }
 
 

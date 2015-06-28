@@ -1,0 +1,12 @@
+.footer {
+    padding:2rem;
+}
+
+@media (--tablet-viewport){
+    .footer {
+        padding:10rem 0;
+    }
+    .footer .col:nth-child(2){
+        text-align: right;
+    }
+}

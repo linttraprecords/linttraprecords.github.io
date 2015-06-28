@@ -1,7 +1,7 @@
 {
-  "name": "statical",
+  "name": "linttraprecords",
   "version": "1.0.0",
-  "description": "Static site generator boilerplate",
+  "description": "Lint Trap Records",
   "main": "index.js",
   "scripts": {
     "dev": "node ./bin/dev.js",
@@ -42,7 +42,8 @@
       "name": "kevinlint.com",
       "company": "Lint Trap Records",
       "elements": [
-        "main", "player"
+        "main",
+        "player"
       ]
     },
     "pages": {
@@ -63,7 +64,8 @@
         "services",
         "team",
         "albums",
-        "footer-scripts"
+        "footer-scripts",
+        "footer"
       ]
     },
     "pieces": {
